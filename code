@@ -1,0 +1,15 @@
+print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm? "))
+
+if height >= 120:
+    print("You can ride the rollercoaster!")
+    age = int(input("What is you age? "))
+    if age <= 12:
+      print("No tokens are needed.")
+#elif condition you can add as many you want, how ever many conditions you want.
+    elif age <= 18:
+      print("Please insert 1 token.")
+    else:
+      print("Please insert 2 tokens.")
+else:
+  print("Sorry, you'll have to be taller than 120cm to ride")
